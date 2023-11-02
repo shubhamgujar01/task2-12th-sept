@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+</head>
+<body>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+    <h1 style="text-align: center;">Event 1</h1>
+    <h3 style="text-align: center;">Number of seats available: 23</h3>
+    <div class="container">
+
+        <div class="text-center py-5">
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-sm-12 col-12">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRHWgmBTAtaIghUvWnAWA21lviRnUq-mepPo5qHx53QQ7cLOYzF-gnyLv7eprBYE2o7AvI&usqp=CAU">
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-12 col-12">
+                    <div class="form-group">
+                        <label for="inputName">Name:</label>
+                        <input type="text" id="inputName" class="form-control" aria-describedby="passwordHelpInline">
+                    </div>
+                    <div class="form-group">
+                        <label for="inputMail">Email:</label>
+                        <input type="email" id="inputMail" class="form-control" aria-describedby="passwordHelpInline">
+                    </div>
+                    <div class="form-group">
+                        <label for="inputPhn">Phone No:</label>
+                        <input type="number" id="inputPhn" class="form-control" aria-describedby="passwordHelpInline">
+                    </div>
+                    <div class="form-group">
+                        <label for="inputSeats">No of seats:</label>
+                        <input type="number" id="inputSeats" class="form-control" aria-describedby="passwordHelpInline">
+                    </div>
+                    <div class="form-group">
+                        <label for="inputAtt">No of Attendee:</label>
+                        <input type="number" id="inputAtt" class="form-control" aria-describedby="passwordHelpInline">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<style>
+    .container {
+        border: 2px solid black;
+        height: 80vh;
+    }
+
+    .form-group {
+        margin-bottom: 1rem;
+    }
+
+    @media only screen and (max-width: 990px) {
+  .container {
+    height: 100vh;
+  }
+}
+</style>
+</html>
